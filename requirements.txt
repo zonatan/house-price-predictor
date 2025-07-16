@@ -1,0 +1,8 @@
+numpy
+pandas
+customtkinter
+scikit-learn
+matplotlib
+plotly
+pillow
+joblib
