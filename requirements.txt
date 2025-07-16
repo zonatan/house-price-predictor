@@ -6,3 +6,5 @@ matplotlib
 plotly
 pillow
 joblib
+tkintermapview
+fpdf
