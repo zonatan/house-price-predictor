@@ -1,2 +1,3 @@
-luas,kamar,lokasi,harga
-500.0,10,1,5208.841378072216
+luas,kamar,lokasi,harga,model,timestamp
+100.0,2,2,1243.350927838386,Random Forest,2025-07-17 02:30:49
+200.0,4,1,2110.938374322052,Linear Regression,2025-07-17 02:33:22
