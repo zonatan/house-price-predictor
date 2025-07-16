@@ -2,16 +2,23 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&style=flat-square) ![License](https://img.shields.io/badge/License-MIT-2ECC71?style=flat-square) ![GUI](https://img.shields.io/badge/GUI-CustomTkinter-9B59B6?style=flat-square) ![ML](https://img.shields.io/badge/Machine%20Learning-Linear%20Regression%20%7C%20Random%20Forest-F39C12?style=flat-square) ![Status](https://img.shields.io/badge/Status-Active-27AE60?style=flat-square)
 
+
 **House Price Predictor Premium** adalah aplikasi prediksi harga rumah berbasis GUI yang canggih, menggunakan **Linear Regression** dan **Random Forest** untuk estimasi harga yang akurat. Dibangun dengan **Python**, **CustomTkinter**, dan berbagai teknologi modern, aplikasi ini menawarkan antarmuka yang elegan, interaktif, dan multibahasa.
+
+
 
 ---
 
 ## 📸 Tangkapan Layar
+
 ![Aplikasi House Price Predictor](assets/screenshot.png)
+
+
 
 ---
 
 ## 🌟 Fitur Unggulan
+
 - 🔍 **Prediksi Harga Akurat**: Berdasarkan luas bangunan, jumlah kamar, dan lokasi
 - 📜 **Riwayat Prediksi**: Simpan dan lihat riwayat dalam tabel interaktif
 - 📊 **Visualisasi 3D**: Scatter plot 3D menggunakan Plotly
@@ -23,9 +30,11 @@
 - 🎨 **Desain Responsif**: Tema terang/gelap dengan sidebar navigasi
 - ⚡ **Rekomendasi Harga**: Saran apakah harga wajar berdasarkan dataset
 
+
 ---
 
 ## 🛠️ Teknologi yang Digunakan
+
 | Teknologi          | Deskripsi                           |
 |--------------------|-------------------------------------|
 | 🐍 **Python 3.8+**  | Bahasa pemrograman utama           |
@@ -39,20 +48,30 @@
 | 🗺️ **tkintermapview** | Visualisasi peta sederhana       |
 | 📄 **fpdf**         | Pembuatan laporan PDF              |
 
+
+
 ---
 
 ## 🚀 Cara Memulai
 ### 📦 Prasyarat
+
 - Python 3.8+ terinstal
 - Git untuk cloning repository (opsional)
 - Direktori proyek dengan struktur yang benar
 
 ### 🛠️ Langkah Instalasi
 1. **Clone Repository** (jika menggunakan Git):
+=======
+- **Python 3.8+** terinstal
+- Git untuk cloning repository
+- Koneksi internet untuk mengunduh dependensi
+
+
    ```bash
    git clone https://github.com/username/house-price-predictor.git
    cd house-price-predictor
    ```
+
 
 2. **Buat Virtual Environment**:
    ```bash
@@ -62,6 +81,7 @@
    ```
 
 3. **Instal Dependensi**:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -70,6 +90,7 @@
    ```bash
    python main.py
    ```
+
 
 ### 📂 Struktur Proyek
 ```
@@ -108,14 +129,15 @@ house-price-predictor/
    - Memisahkan fitur (luas, kamar, lokasi) dan target (harga)
 
 2. **Pelatihan Model**:
+
    - Membagi data: 80% training, 20% testing
+
    - Melatih dua model: **Linear Regression** dan **Random Forest**
    - Menghitung akurasi dengan **R² Score**
 
 3. **Prediksi**:
    - Menerima input pengguna atau file CSV
    - Menghasilkan prediksi dengan interval kepercayaan
-   - Menyimpan prediksi ke riwayat
 
 ---
 
@@ -138,11 +160,13 @@ luas,kamar,lokasi,harga
 ---
 
 ## 📜 Lisensi
+
 Proyek ini dilisensikan di bawah **[MIT License](LICENSE)**.
 
 ---
 
 ## 🌈 Kontribusi
+
 Kami menyambut kontribusi! Untuk berkontribusi:
 1. 🍴 Fork repository
 2. 🛠️ Buat branch: `git checkout -b fitur-baru`
@@ -155,6 +179,7 @@ Laporkan bug atau saran di [Issues](https://github.com/username/house-price-pred
 ---
 
 ## 📢 Hubungi Kami
-Ikuti perkembangan di [GitHub](https://github.com/username/house-price-predictor) atau hubungi melalui [email](mailto:your.email@example.com).
 
+Ikuti perkembangan di [GitHub](https://github.com/username/house-price-predictor) atau hubungi melalui [email](mailto:your.email@example.com).
 ⭐ **Beri bintang di GitHub jika Anda menyukai proyek ini!**
+
